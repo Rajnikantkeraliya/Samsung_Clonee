@@ -1,0 +1,249 @@
+@media(min-width: 370px) {
+    .container {
+        width: 320px;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .text {
+        margin: 2em auto;
+    }
+    .size h2{
+        font-size: 1em;
+    }
+    .fontsize {
+        font-size: 1em;
+    }
+    .col-50{
+        width: 100%;
+    }
+    .sec1-image{
+        width: 100%;
+     }
+     .sec1-image img{
+        width: 100%;
+     }
+     .col-23 {
+        width: 70%;
+        margin: 2em auto;
+    }
+    .col-17{
+        width: 50%;
+        margin: 2em auto ;
+     }
+     .width h3{
+        width: 100%;
+    }
+}
+
+/*  <!-- -----------------------------------------------------------  START MediaQuary mobile -------------------------------------------------------------------> */
+@media(min-width: 576px) {
+    .container {
+        width: 520px;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .text {
+        margin: 3em auto;
+    }
+.col-50{
+    width: 100%;
+}
+    .term {
+        width: 100%;
+    }
+    .size h2{
+        font-size: 2em;
+    }
+    .product-Service hr {
+        width: 505px;
+    }
+
+    .fontsize {
+        font-size: 1em;
+    }
+
+    .col-23 {
+        width: 70%;
+        margin: 2em auto;
+    }
+    .col-17{
+        width: 50%;
+        margin: 2em auto ;
+     }
+     .sec1-image{
+        width: 100%;
+     }
+     .sec1-image img{
+        width: 100%;
+     }
+     .width h3{
+        width: 100%;
+    }
+}
+
+/*  <!-- -----------------------------------------------------------  START MediaQuary Tablet -------------------------------------------------------------------> */
+@media(min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .text {
+        margin: 0 auto;
+    }
+    .col-50{
+        width: 80%;
+    }
+    .term hr {
+        width: 720px;
+    }
+
+    .term {
+        width: 70%;
+    }
+    .size h2{
+        font-size: 2em;
+    }
+    .product-Service hr {
+        width: 720px;
+    }
+
+    .fontsize {
+        font-size: 2em;
+    }
+    .col-23 {
+        width: 100%;
+        margin: 2em auto;
+    }
+
+    .col-17{
+        width: 30%;
+        margin: 2em auto ;
+     }
+     .sec1-image{
+        width: 100%;
+     }
+     .sec1-image img{
+        width: 100%;
+     }
+     .width h3{
+        width: 80%;
+    }
+}
+
+/*  <!-- -----------------------------------------------------------  START MediaQuary macbook -------------------------------------------------------------------> */
+@media(min-width: 992px) {
+    .container {
+        width: 920px;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .text {
+        margin: 0 auto;
+    }
+
+    .col-50{
+        width: 50%;
+    }   
+    .term hr {
+        width: 920px;
+    }
+    .size h2{
+        font-size: 3em;
+    }
+    .term {
+        width: 50%;
+    }
+
+    .product-Service hr {
+        width: 920px;
+    }
+
+    .fontsize {
+        font-size: 2em;
+    }
+    .col-23{
+        width: 23%;
+
+     }
+     .col-17{
+        width: 17%;
+        margin: 0 auto ;
+     }
+     .sec1-image{
+        width: 100%;
+     }
+     .sec1-image img{
+        width: 100%;
+     }
+     .width h3{
+        width: 60%;
+    }
+}
+
+/*  <!-- -----------------------------------------------------------  START MediaQuary Desktop -------------------------------------------------------------------> */
+@media(min-width: 1200px) {
+    .container {
+        width: 1400px;
+        margin: 0 auto;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .text {
+        margin: 0 auto;
+    }
+    .col-50 {
+        width: 50%;
+    }
+  
+    .size h2{
+        font-size: 4em;
+    }
+
+    .margin {
+        margin: 1.2em;
+    }
+    .term hr {
+        width: 1350px;
+    }
+
+    .term {
+        width: 50%;
+    }
+
+    .product-Service hr {
+        width: 1320px;
+    }
+    .col-23{
+        width: 23%;
+
+     }
+     .col-17{
+        width: 17%;
+        margin: 0 auto ;
+     }
+     .sec1-image{
+        width: 100%;
+     }
+     .sec1-image img{
+        width: 100%;
+     }
+     .width h3{
+        width: 50%;
+    }
+}

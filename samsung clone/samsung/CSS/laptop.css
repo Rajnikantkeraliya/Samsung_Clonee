@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Cormorant+Garamond:ital,wght@1,700&family=Jacques+Francois+Shadow&family=Josefin+Sans:wght@300;400&family=Londrina+Shadow&family=Montserrat:wght@300&family=Oswald:wght@300;600&family=Questrial&family=Roboto+Slab:wght@100&family=Roboto:wght@100;400;500&family=Titillium+Web:wght@300;700&family=Yellowtail&display=swap');
+  
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Cormorant+Garamond:ital,wght@1,700&family=Jacques+Francois+Shadow&family=Josefin+Sans:wght@300;400&family=Londrina+Shadow&family=Montserrat:wght@300&family=Oswald:wght@300;600&family=Questrial&family=Roboto+Slab:wght@100&family=Roboto:wght@100;400;500&family=Titillium+Web:wght@300&family=Yellowtail&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.jcsb{
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    padding: 1em 0;
+}
+.menubar ul li{
+    display: inline-block;
+    margin: 1em;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.icon ul li{
+    display: inline-block;
+    margin: 0.8em;
+}
+.icon ul li a i{
+    color: black;
+}
+.menubar ul li a:hover{
+    background-color: black;
+    border-radius: 1.25em;
+    color: white;
+    padding:0.5em 1em;
+}
+
+/* <!-----------------------------------------------------section one------------------------------------------*/
+.list ul li{
+    display: inline-block;
+    margin: 1em;
+}
+.list ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.list ul li a:hover{
+    background-color: black;
+    border-radius: 1.25em;
+    color: white;
+    padding:0.5em 1em;
+}
+.paddingtop{
+    padding-top: 2.8em;
+}
+.paddingbottom{
+    padding-bottom: 2em;
+}
+.greater h2 i{
+    margin: 2em 0;
+}
+.textalign{
+    text-align: center
+}
+.fontsize{
+    font-size: 2em;
+}
+.paddingleft{
+    padding-left: 1.5em;
+}
+#hr{
+    width: 10%;
+    transform: rotate(90deg);
+}
+/* <!-----------------------------------------------------section one------------------------------------------*/
+#learn{
+    text-decoration: underline 0.15em;
+    color: black;
+    margin-left: 1.8em;
+}
+#buynow{
+    padding:0.4em 1.5em;
+    text-decoration: none;
+    color: white;
+    margin-left: 2em;
+    font-weight: 520;
+    letter-spacing: 0.1em;
+    border-radius: 1.5em;
+    background-color: black;
+}
+.image img{
+    width: 100%;
+}
+.sec-three{
+    position: relative
+}
+.image{
+    position: relative;
+}
+.textmain{
+    position: absolute;
+    top: 6em;
+}
+
+/* <!-----------------------------------------------------section Three------------------------------------------*/
+.sec-three{
+    background-color:#F7F7F7;
+}
+.col-2{
+    width: 24%;
+    display: block;
+    margin-top: 1.2em;
+}
+.end{
+    text-align: end;
+}
+.wishlist{
+    padding-right: 1em;
+}
+.col-20box{
+   
+    border-radius: 1.5em;
+    background-color: white;
+    
+}
+#buy{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 0.1em solid;
+    padding: 0.3em 1.5em ;
+    border-radius: 1.5em;
+    font-weight: bold;
+}
+.text h3{
+    padding: 0.5em 0.5em;
+}
+.text h2{
+    padding-left: 0.5em;
+}
+.text p{
+    padding: 0.5em 0.5em;
+    font-size: 0.7em;
+}
+.inbox{
+    border: 0.09em solid;
+    border-radius: 1.5em;
+    width: 90%;
+}
+#now{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding:0.4em 6em;
+    border-radius: 1.5em;
+}
+#more{
+    text-decoration: none;
+    color: black;
+    border: 0.1em solid;
+    background-color: white;
+    padding:0.4em 5.5em;
+    border-radius: 1.5em;
+}
+.learnmore{
+    margin-top: 2em;
+}
+.bt{
+    margin: 1em 0;
+}
+.bt a{
+    text-decoration: none;
+    border: 0.1em solid;
+    border-radius: 1.5em;
+    padding: 0 1.5em;
+    margin:0 0.2em;
+}
+/* <!-----------------------------------------------------section Three------------------------------------------*/
+.line a{
+    text-decoration: none;
+    color: black;
+  }
+.line{
+    padding: 1.5em;
+}
+
+/*  <!-----------------------------------------------------Footer--------------------------------------------------> */
+
+.border ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0.5em 0;
+ }
+ .border ul li{
+    list-style: none;
+    padding: 0.3em 0;
+ }
+ .border  a:hover{
+background-color: rgb(23, 18, 13);
+padding: 0.1em 0.5em;
+border-radius: 1.5em;
+color: white;
+
+ }
+ .term{
+    width: 100%;
+ }
+ .term p{
+    margin: 1em 0;
+ }
+ .term hr{
+    width: 100%;
+ }
+ .product-Service hr{
+    width: 100%;
+ }
+ .policy ul li{
+    display: inline-block;
+    padding: 0.5em;
+ }
+ .policy  a{
+    color: black;
+    text-decoration: none;
+ }
+ .col-17{
+    width: 17%;
+    margin: 0 0 0 2em ;
+ }
+

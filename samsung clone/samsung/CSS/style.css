@@ -1,0 +1,282 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Cormorant+Garamond:ital,wght@1,700&family=Jacques+Francois+Shadow&family=Josefin+Sans:wght@300;400&family=Londrina+Shadow&family=Montserrat:wght@300&family=Oswald:wght@300;600&family=Questrial&family=Roboto+Slab:wght@100&family=Roboto:wght@100;400;500&family=Titillium+Web:wght@300;700&family=Yellowtail&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Cormorant+Garamond:ital,wght@1,700&family=Jacques+Francois+Shadow&family=Josefin+Sans:wght@300;400&family=Londrina+Shadow&family=Montserrat:wght@300&family=Oswald:wght@300;600&family=Questrial&family=Roboto+Slab:wght@100&family=Roboto:wght@100;400;500&family=Titillium+Web:wght@300&family=Yellowtail&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.jcsb{
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    padding: 1em 0;
+}
+.menubar ul li{
+    display: inline-block;
+    margin: 1em;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding:0.5em 0.5em;
+}
+.icon ul li{
+    display: inline-block;
+    margin: 0.8em;
+}
+.icon ul li a i{
+    color: black;
+}
+.menubar ul li a:hover{
+    background-color: black;
+    border-radius: 1.25em;
+    color: white;
+    padding:0.5em 0.5em;
+}
+/* <!-----------------------------------------------------section One---------------------------------------------------> */
+.sec-one{
+    background-color: #F4F4F4;
+    overflow: hidden;
+}
+#buynow{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin: 1em 0.5em;
+    border-radius: 2em;
+    padding: 0.2em 2em;
+}
+.align{
+    text-align: center;
+}
+.paddingtop{
+    padding-top: 3em;
+}
+.button a{
+    color: black;
+    text-decoration: none;
+    text-decoration: underline 0.2em;
+}
+.button{
+    margin: 1.5em 0;
+}
+.image1{
+    background-size: cover;
+}
+.fontsize h2{
+   font-weight: bold;
+   font-size: 3em;
+}
+.width{
+    width: 100%;
+}
+.paddingbottom{
+    padding-bottom: 3em;
+}
+.sliderimage img{
+    width: 100%;
+}
+/* <!-----------------------------------------------------section TWO Three---------------------------------------------------> */
+.sec5-col80 .sec3-image{
+    width: 100%;
+}
+.sec3-image {
+        width: 100%;
+    }
+/* <!-----------------------------------------------------section Four---------------------------------------------------> */
+.image4 .sec2-image2 img{
+    width: 100%;
+}
+.sec2-image4{
+   background-color: #F4F4F4;
+   border-radius: 1.5em;
+}
+.sec2-image5{
+    background-color: #F4F4F4;
+    border-radius: 1.5em;
+ }
+ .image5 .sec2-image3 img{
+    width: 100%;
+}
+ .image2 .sec2-image2 img{
+    width: 100%;
+}
+.mainbg-color{
+    background-color: #F4F4F4;
+}
+.sec-four{
+position: relative;
+background-image: url(../Assest/sec4backgroundimage.jpg);
+background-size: cover;
+background-position: center center;
+padding: 6.5em 0;
+}
+.main{
+    padding: 6.5em 0;
+    margin: 5em 0;
+}
+ .part1{
+    position: relative;
+    top: 1.5em;
+    left: -8em;
+ }
+ .part2{
+    position: relative;
+   bottom: -20em;
+ }
+ .sec-4fontsize h2{
+    font-weight: bold;
+    font-size: 4em;
+ }
+/* <!-----------------------------------------------------section Five---------------------------------------------------> */
+.sec-five{
+    background-image: url(../Assest/sec-5-image.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.sec-five{
+    padding: 6.5em 0;
+}
+.btn{
+    margin: 1em 0;
+}
+.btn a{
+    text-decoration: none;
+    border: 0.1em solid;
+    border-radius: 1.5em;
+    padding: 0 1.5em;
+    margin:0 0.2em;
+}
+.sec5-col25box{
+    border-radius: 1.5em;
+    background-color: #F4F4F4;
+    margin: 2em;
+}
+/* <!-----------------------------------------------------section Six---------------------------------------------------> */
+.sec6-image1 img{
+    width: 100%;
+}
+.btn button{
+    margin: 1em 0 1em  0.5em;
+    padding: 0.1em 1.9em;
+    border-radius: 1.5em;
+ }
+ .leftright{
+    padding: 2em 0 0 0;
+ }
+ /* <!-----------------------------------------------------section seven---------------------------------------------------> */
+ .image img{
+    border-radius: 1.5em;
+ }
+ .none a {
+    text-decoration: none;
+    color: black;
+    margin: 2.5em;
+ }
+ .left{
+    padding-left: 2.5em;
+ }
+ .sec7-button {
+    display: none;
+    transition: 1.2s;
+ }
+ .text a:hover+.sec7-button{
+    display: block;
+ }
+ .alignitem{
+    align-items: center;
+    margin: 0 auto;
+ }
+.sec7-image img{
+    width: 100%;
+}
+/* <!-----------------------------------------------------section Eaight---------------------------------------------------> */
+#search-bar {
+    padding: 1.3em 0;
+    border-radius: 48px;
+    border: 0.5px solid lightgrey;
+    width: 40%;
+    padding-right: 40px;
+    padding-left: 10px;
+    background-color: #F0F0F0;
+    font-size: 0.8em;
+}
+#search-btn {
+    border-top-right-radius: 48px;
+    border-bottom-right-radius: 48px;
+    padding: 0.8em;
+    font-size: 1.1em;
+    margin: 0 0  0 -3em;
+    border: none;
+    border-left: 0.5px solid lightgrey;
+}
+.sec8-bottom{
+    margin: 1.9em;
+}
+ .note p{
+    padding: 0.4em 0;
+    font-size: 0.7em;
+    margin-left: 6.5em;
+ }
+
+/*  <!-----------------------------------------------------Footer--------------------------------------------------> */
+
+ .border ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0.5em 0;
+ }
+ .border ul li{
+    list-style: none;
+    padding: 0.3em 0;
+ }
+ .border  a:hover{
+background-color: rgb(23, 18, 13);
+padding: 0.1em 0.5em;
+border-radius: 1.5em;
+color: white;
+
+ }
+ .col-20{
+    width: 20%;
+ }
+ .term{
+    width: 100%;
+ }
+ .term p{
+    margin: 1em 0;
+ }
+ .term hr{
+    width: 100%;
+ }
+ .product-Service hr{
+    width: 100%;
+ }
+ .policy ul li{
+    display: inline-block;
+    padding: 0.5em;
+ }
+ .policy  a{
+    color: black;
+    text-decoration: none;
+ }
+ .col-15{
+    width: 20%;
+ }
+ .jcc{
+   justify-content: center;
+ }

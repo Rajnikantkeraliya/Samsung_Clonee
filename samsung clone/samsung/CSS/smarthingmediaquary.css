@@ -1,0 +1,253 @@
+@media(min-width: 370px) {
+    .container {
+        width: 320px;
+    }
+    .size h2{
+        font-size: 1.5em
+    }
+    .textposition{
+        top: 0em;
+        left: 23%;
+    }
+    .size p{
+        font-size: 0.8em
+    }
+    .col-30 {
+        width: 100%;
+        margin: 2em auto;
+    }
+    .textposition2{
+        position: absolute;
+       top: 46%; 
+       left: 19%;
+    }
+    .textposition3{
+        position: absolute;
+       bottom: 26.5%; 
+       left: 20%;
+    }
+    .textposition4{
+        position: absolute;
+       bottom: 4em; 
+        right: 20%;
+    }
+    .term {
+        width: 100%;
+    }
+
+    .product-Service hr {
+        width: 390px;
+    }
+
+    .col-17 {
+        width: 50%;
+        margin: 2em auto;
+    }
+}
+
+/*  <!-- -----------------------------------------------------------  START MediaQuary mobile -------------------------------------------------------------------> */
+@media(min-width: 576px) {
+    .container {
+        width: 520px;
+    }
+    .textposition{
+        top: 1em;
+        left: 20%;
+    }
+    .size h2{
+        font-size: 2em
+    }
+    .size p{
+        font-size: 1em
+    }
+    .col-30 {
+        width: 100%;
+        margin: 2em auto;
+    }
+    .textposition2{
+        position: absolute;
+       top: 40%; 
+       left: 29%;
+    }
+    .textposition3{
+        position: absolute;
+       bottom: 30%; 
+       left: 30%;
+    }
+    .textposition4{
+        position: absolute;
+       bottom: 4em; 
+        right: 32%;
+    }
+    .term {
+        width: 100%;
+    }
+
+    .product-Service hr {
+        width: 390px;
+    }
+
+    .col-17 {
+        width: 50%;
+        margin: 2em auto;
+    }
+}
+
+/*  <!-- -----------------------------------------------------------  START MediaQuary Tablet -------------------------------------------------------------------> */
+@media(min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+    .textposition{
+        top: 4em;
+        left: 19%;
+    }
+    .size h2{
+        font-size: 3em
+    }
+    .size p{
+        font-size: 1em
+    }
+    .col-30 {
+        width: 45%;
+        margin: 2em auto;
+    }
+    .textposition2{
+        position: absolute;
+       top: 50%; 
+       left: 11%;
+    }
+    .textposition3{
+        position: absolute;
+        top: 50%; 
+        right: -20%;
+    }
+    .textposition4{
+        position: absolute;
+       bottom: 4em; 
+        right: 37%;
+    }
+    .term hr {
+        width: 720px;
+    }
+
+    .term {
+        width: 70%;
+    }
+
+    .product-Service hr {
+        width: 720px;
+    }
+
+    .fontsize h2 {
+        font-size: 5em;
+    }
+
+    .col-17 {
+        width: 30%;
+        margin: 2em auto;
+    }
+}
+
+/*  <!-- -----------------------------------------------------------  START MediaQuary macbook -------------------------------------------------------------------> */
+@media(min-width: 992px) {
+    .container {
+        width: 920px;
+    }
+    .textposition{
+        top: 4em;
+        left: 14%;
+    }
+    .size h2{
+        font-size: 3em
+    }
+    .size p{
+        font-size: 1em
+    }
+    .col-30 {
+        width: 30%;
+    }
+    .textposition2{
+        position: absolute;
+       top: 40em; 
+       left: 6%;
+    }
+    .textposition3{
+        position: absolute;
+       top: 40em; 
+       left: -12em;
+    }
+    .textposition4{
+        position: absolute;
+       bottom: 4em; 
+        right: 6%;
+    }
+    .term hr {
+        width: 920px;
+    }
+
+    .term {
+        width: 50%;
+    }
+
+    .product-Service hr {
+        width: 20px;
+    }
+
+    .col-17 {
+        width: 17%;
+        margin: 0 auto;
+    }
+}
+
+/*  <!-- -----------------------------------------------------------  START MediaQuary Desktop -------------------------------------------------------------------> */
+@media(min-width: 1200px) {
+    .container {
+        width: 1400px;
+        margin: 0 auto;
+    }
+    .textposition{
+        top: 4em;
+        left: 10%;
+    }
+    .size h2{
+        font-size: 3em
+    }
+    .size p{
+        font-size: 1em
+    }
+    .col-30 {
+        width: 30%;
+    }
+    .textposition2{
+        position: absolute;
+       top: 53em; 
+       left: 9%;
+    }
+    .textposition3{
+        position: absolute;
+       top: 53em; 
+       left:-17em;
+    }
+    .textposition4{
+        position: absolute;
+       bottom: 4em; 
+        right: 9%;
+    }
+    .term hr {
+        width: 1350px;
+    }
+
+    .term {
+        width: 50%;
+    }
+
+    .product-Service hr {
+        width: 1330px;
+    }
+
+    .col-17 {
+        width: 17%;
+        margin: 0 auto;
+    }
+}

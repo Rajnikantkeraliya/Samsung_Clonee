@@ -1,0 +1,184 @@
+@media(min-width: 370px) {
+    .container {
+        width: 320px;
+    }
+
+    .row {
+        width: 100%;
+    }
+    .col-30{
+        width: 100%;
+    }
+    .col-50{
+        width: 100%;
+    }
+    .textwidth{
+        width: 90%;
+    } 
+    .col-15{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .product-Service hr{
+        width: 300px;
+     }
+     .left h2{
+        width: 100%;
+        font-size: 1.5em;
+        padding-left: 2em;
+    }
+    .sec3image1{
+        margin: 0 auto;
+    }
+}
+
+/*  <!-- -----------------------------------------------------------  START MediaQuary mobile -------------------------------------------------------------------> */
+@media(min-width: 576px) {
+    .container {
+        width: 520px;
+    }
+
+    .row {
+        width: 100%;
+    }
+    .col-30{
+        width: 100%;
+    }
+    .col-50{
+        width: 100%;
+    }
+    .textwidth{
+        width: 90%;
+    }
+    .col-15{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .product-Service hr{
+        width: 500px;
+     }
+     .left h2{
+        width: 100%;
+        font-size: 3em;
+        padding-left: 2em;
+    }
+   
+    .sec3image1{
+        margin: 0 auto;
+    }
+}
+
+/*  <!-- -----------------------------------------------------------  START MediaQuary Tablet -------------------------------------------------------------------> */
+@media(min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+
+    .row {
+        width: 100%;
+    }
+    .col-50{
+        width: 70%;
+    }
+    .col-30{
+        width: 50%;
+    }
+    .textwidth{
+        width: 90%;
+    }
+    .col-15{
+        width: 30%;
+        margin: 0 auto;
+    }
+    .product-Service hr{
+        width: 700px;
+     }
+     .left h2{
+        width: 100%;
+        font-size: 3em;
+        padding-left: 2em;
+    }
+    .image1 img{
+       width:100% ;
+    }
+    .sec3image1{
+        margin: 0 auto;
+    }
+
+}
+
+/*  <!-- -----------------------------------------------------------  START MediaQuary macbook -------------------------------------------------------------------> */
+@media(min-width: 992px) {
+    .container {
+        width: 920px;
+    }
+
+    .row {
+        width: 100%;
+    }
+    .col-50{
+        width: 50%;
+    }
+    .col-30{
+        width: 40%;
+    }
+    .textwidth{
+        width: 90%;
+    }
+    .image1 image{
+        width: 100%;
+    }
+    .col-15{
+        width: 15%;
+        margin: 0 auto;
+    }
+    .product-Service hr{
+        width: 920px;
+     }
+     .left h2{
+        width: 100%;
+        font-size: 2.8em;
+        padding-left: 2em;
+    }
+    .sec3image1{
+        margin: 0 auto;
+    }
+
+}
+
+/*  <!-- -----------------------------------------------------------  START MediaQuary Desktop -------------------------------------------------------------------> */
+@media(min-width: 1200px) {
+    .container {
+        width: 1400px;
+        margin: 0 auto;
+    }
+
+    .row {
+        width: 100%;
+    }
+    .col-50{
+        width: 50%;
+    }
+    .col-30{
+        width: 30%;
+    }
+    .textwidth{
+        width: 90%;
+    }
+    .col-15{
+        width: 15%;
+        margin: 0 auto;
+    }
+    .product-Service hr{
+        width: 1350px;
+     }
+     .left h2{
+        width: 90%;
+        font-size: 4.2em;
+        padding-left: 2em;
+    }
+    .sec3image1{
+        margin: 0 auto;
+    }
+   
+}

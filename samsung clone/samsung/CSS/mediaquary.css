@@ -1,0 +1,530 @@
+@media(min-width: 370px) {
+    .container {
+        width: 320px;
+    }
+
+    .row {
+        width: 100%;
+    }
+    .text {
+        margin: 0 auto;
+    }
+
+    .col-25 {
+        width: 100%;
+        margin-top: 2em;
+    }
+
+    .col-50 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .width {
+        width: 100%;
+    }
+
+    .sec5-col80 .sec3-image {
+        width: 100%;
+    }
+
+    .sec3-image img {
+        width: 100%;
+    }
+
+    .part1 {
+        top: -17em;
+        left: -1em;
+    }
+
+    .part2 {
+        position: relative;
+        bottom: -20em;
+    }
+    .textposition1{
+        left: 20%;
+      bottom: 2.5em;
+    }
+    .textposition2{
+       top: 27em;
+        right: 34%;
+        
+    }
+    .textposition3{
+        bottom: -1em;
+        right: 34%;   
+    }
+    .textposition4{
+        top: 27em;
+        right: 10%;    
+    }
+    .textposition5{
+        bottom: -1em;
+        right: 10%;   
+    }
+    .col-20 {
+        width: 100%;
+        margin: 1.5em auto;
+    }
+
+    .col-60 {
+        width: 100%;
+    }
+    .first{
+        margin: 1em auto;
+     } 
+    .col-40 {
+        width: 100%;
+    }
+    .col-15 {
+        width: 100%;
+        margin: 1.5em auto;
+    }
+    .product-Service{
+        text-align: center;
+    }
+    .term{
+        width: 100%;
+     }
+     .sec-4fontsize h2{
+        font-size: 1.5em;
+     }
+
+}
+
+/*  <!-- -----------------------------------------------------------  START MediaQuary mobile -------------------------------------------------------------------> */
+@media(min-width: 576px) {
+    .container {
+        width: 520px;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .col-50 {
+        width: 100%;
+    }
+
+    .text {
+        margin: 0 auto;
+    }
+
+    .col-25 {
+        width: 100%;
+    }
+
+    .col-50 {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .width {
+        width: 100%;
+    }
+
+    .sec2-image5 {
+        padding-top: 0;
+    }
+
+    .sec5-col80 .sec3-image {
+        width: 100%;
+    }
+
+    .sec3-image img {
+        width: 100%;
+    }
+
+    .part1 {
+        top: -17em;
+        left: -1em;
+    }
+    .textposition1{
+        left: 20%;
+      bottom: 2.5em;
+    }
+    .textposition2{
+       top: 27em;
+        right: 34%;
+        
+    }
+    .textposition3{
+        bottom: -1em;
+        right: 34%;   
+    }
+    .textposition4{
+        top: 27em;
+        right: 10%;    
+    }
+    .textposition5{
+        bottom: -1em;
+        right: 10%;   
+    }
+    .part2 {
+        position: relative;
+        bottom: -20em;
+    }
+    .product-Service{
+        text-align: start;
+    }
+    .col-20 {
+        width: 80%;
+        margin: 1.5em auto;
+    }
+
+    .col-60 {
+        width: 100%;
+    }
+    .first{
+        margin: 1em auto;
+     } 
+    .col-40 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .col-15 {
+        width: 45%;
+        margin: 1.5em auto;
+    }
+    .term{
+        width: 100%;
+     }
+     .product-Service hr{
+        width: 505px;
+     }
+     .sec-4fontsize h2{
+        font-size: 2em;
+     }
+}
+
+/*  <!-- -----------------------------------------------------------  START MediaQuary Tablet -------------------------------------------------------------------> */
+@media(min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .col-50 {
+        width: 100%;
+    }
+
+    .text {
+        margin: 0 auto;
+    }
+
+    .col-25 {
+        width: 50%;
+        margin-top: 2em;
+    }
+
+    .col-50 {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .width {
+        width: 100%;
+    }
+
+    .sec2-image5 {
+        padding-top: 5.8em;
+    }
+
+    .sec5-col80 .sec3-image {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .part1 {
+        top: -17em;
+        left: -1em;
+    }
+
+    .part2 {
+        position: relative;
+        bottom: -20em;
+    }
+
+    .col-20 {
+        width: 40%;
+        margin: 1.5em auto;
+    }
+    .col-60 {
+        width: 100%;
+    }
+
+    .col-40 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .col-15 {
+        width: 30%;
+        margin: 1.5em auto;
+    }
+    .textposition1{
+        left: 20%;
+      bottom: 2.5em;
+    }
+    .textposition2{
+       top: 27em;
+        right: 34%;
+        
+    }
+    .textposition3{
+        bottom: -1em;
+        right: 34%;   
+    }
+    .textposition4{
+        top: 27em;
+        right: 10%;    
+    }
+    .textposition5{
+        bottom: -1em;
+        right: 10%;   
+    }
+    .term hr{
+        width: 720px;
+     }
+     .product-Service{
+        text-align: start;
+    }
+     .term{
+        width: 70%;
+     }
+     .product-Service hr{
+        width: 720px;
+     }
+     .first{
+        margin: 1em auto;
+     } 
+     .sec-4fontsize h2{
+        font-size: 3em;
+     }
+}
+
+/*  <!-- -----------------------------------------------------------  START MediaQuary macbook -------------------------------------------------------------------> */
+@media(min-width: 992px) {
+    .container {
+        width: 920px;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .col-5 {
+        width: 50%;
+    }
+
+    .text {
+        margin: 0 auto;
+    }
+
+    .col-25 {
+        width: 20%;
+    }
+
+    .col-50 {
+        width: 50%;
+    }
+
+    .width {
+        width: 60%;
+    }
+
+    .sec2-image4 {
+        padding-top: 5.5em;
+    }
+
+    .sec5-col80 .sec3-image {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .part1 {
+        top: -17em;
+        left: -1em;
+    }
+
+    .part2 {
+        position: relative;
+        bottom: -20em;
+    }
+
+    .col-20 {
+        width: 23%;
+       
+    }
+
+    .sec6-image1 {
+        padding: 0 2.5em;
+    }
+
+    .col-60 {
+        width: 60%;
+    }
+
+    .col-40 {
+        width: 40%;
+        margin: 0 auto;
+    }
+    .col-15 {
+        width: 15%;
+        margin: 0 auto;
+    }
+    .textposition1{
+        left: 20%;
+      bottom: 2.5em;
+    }
+    .textposition2{
+       top: 27em;
+        right: 34%;
+        
+    }
+    .textposition3{
+        bottom: -1em;
+        right: 34%;   
+    }
+    .textposition4{
+        top: 27em;
+        right: 10%;    
+    }
+    .textposition5{
+        bottom: -1em;
+        right: 10%;   
+    }
+    .term hr{
+        width: 920px;
+     }
+     .product-Service{
+        text-align: start;
+    }
+     .term{
+        width: 50%;
+     }
+     .product-Service hr{
+        width: 920px;
+     }
+     .first{
+        margin: 0;
+     } 
+     .sec-4fontsize h2{
+        font-size: 4em;
+     }
+}
+
+/*  <!-- -----------------------------------------------------------  START MediaQuary Desktop -------------------------------------------------------------------> */
+@media(min-width: 1200px) {
+    .container {
+        width: 1400px;
+        margin: 0 auto;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .col-50 {
+        width: 50%;
+    }
+
+    .text {
+        margin: 0 auto;
+    }
+
+    .col-25 {
+        width: 23%;
+        margin-top: 0;
+    }
+
+    .col-50 {
+        width: 50%;
+    }
+
+    .width {
+        width: 60%;
+    }
+
+    .sec2-image5 {
+        padding-top: 0;
+    }
+
+    .sec5-col80 .sec3-image {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .part1 {
+        top: -17em;
+        left: -1em;
+    }
+
+    .part2 {
+        position: relative;
+        bottom: -20em;
+    }
+
+    .col-15 {
+        width: 15%;
+        margin: 0 auto;
+    }
+    .col-20 {
+        width: 23%;
+        margin: 1.5em auto;
+    }
+
+    .sec6-image1 {
+        padding: 0 2.5em;
+    }
+
+    .col-60 {
+        width:50%;
+    }
+
+    .col-40 {
+        width: 40%;
+        margin: 0 auto;
+    }
+    .textposition1{
+        left: 20%;
+      bottom: 2.5em;
+    }
+    .textposition2{
+       top: 27em;
+        right: 34%;
+        
+    }
+    .textposition3{
+        bottom: -1em;
+        right: 34%;   
+    }
+    .textposition4{
+        top: 27em;
+        right: 10%;    
+    }
+    .textposition5{
+        bottom: -1em;
+        right: 10%;   
+    }
+    .term hr{
+        width: 1350px;
+     }
+     .term{
+        width: 50%;
+     }
+     .product-Service{
+        text-align: start;
+    }
+     .product-Service hr{
+        width: 1300px;
+     }
+     .first{
+        margin: 0;
+     }
+     .sec-4fontsize h2{
+        font-size: 4em;
+     }
+}

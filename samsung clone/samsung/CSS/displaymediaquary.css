@@ -1,0 +1,196 @@
+@media(min-width: 370px) {
+    .container {
+        width: 320px;
+    }
+    .textposition{
+        left: 41%;
+        bottom: 1em;
+    }
+    .col-23{
+        width: 100%;
+    }
+    .btn{
+        padding: 2em 0;
+    }
+    .image2position{
+        bottom: 1em;
+        left: 5%;
+    }
+    .position{
+        bottom: 20em;
+        left: 53%;
+        z-index: 1;
+    }
+    .size{
+        font-size: 0.6em;
+    }
+    .col-17{
+        width: 100%;
+        margin: 2em auto ;
+     }
+}
+/*  <!-- -----------------------------------------------------------  START MediaQuary mobile -------------------------------------------------------------------> */
+@media(min-width: 576px) {
+    .container {
+        width: 520px;
+    }
+    .textposition{
+        left: 42%;
+        bottom: 4em;
+    }
+    .col-23{
+        width: 100%;
+    }
+    .btn{
+        padding: 1em 0;
+    }
+    .image2position{
+        bottom: 1.8em;
+        left: 5%;
+    }
+    .size{
+        font-size: 1.1em;
+    }
+    .position{
+        bottom: 9.7em;
+        left: 53%;
+        z-index: 1;
+    }
+    .term {
+        width: 100%;
+    }
+    .product-Service hr {
+        width: 390px;
+    }
+    .col-17{
+        width: 50%;
+        margin: 2em auto ;
+     }
+}
+
+/*  <!-- -----------------------------------------------------------  START MediaQuary Tablet -------------------------------------------------------------------> */
+@media(min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+    .textposition{
+        left: 35%;
+        bottom: 2em;
+    }
+    .col-23{
+        width: 45%;
+    }
+    .image2position{
+        bottom: 3em;
+        left: 5%;
+    }
+    .size{
+        font-size: 1.5em;
+    }
+    .position{
+        bottom: 19em;
+        left: 50%;
+        z-index: 1;
+    }
+    .position{
+        bottom: 8em;
+        left: 53%;
+        z-index: 1;
+    }
+    .term hr {
+        width: 720px;
+    }
+    .term {
+        width: 70%;
+    }
+    .product-Service hr {
+        width: 720px;
+    }
+    .fontsize h2{
+        font-size: 5em;
+    }
+    .col-17{
+        width: 30%;
+        margin: 2em auto ;
+     }
+}
+
+/*  <!-- -----------------------------------------------------------  START MediaQuary macbook -------------------------------------------------------------------> */
+@media(min-width: 992px) {
+    .container {
+        width: 920px;
+    }
+    .textposition{
+        left: 38%;
+        bottom: -3em;
+    }
+    .col-23{
+        width: 23%;
+    }
+    .image2position{
+        bottom: 2em;
+        left: 5%;
+    }
+    .size{
+        font-size: 1.9em;
+    }
+    .position{
+        font-size: 0.1;
+        bottom: 6.5em;
+        left: 50%;
+        z-index: 1;
+    }
+    .term hr {
+        width: 920px;
+    }
+    .term {
+        width: 50%;
+    }
+    .product-Service hr {
+        width: 20px;
+    }
+    .col-17{
+        width: 17%;
+        margin: 0 auto ;
+     }
+}
+
+/*  <!-- -----------------------------------------------------------  START MediaQuary Desktop -------------------------------------------------------------------> */
+@media(min-width: 1200px) {
+    .container {
+        width: 1400px;
+        margin: 0 auto;
+    }
+    .textposition{
+        left: 40%;
+        bottom: 4em;
+    }
+    .col-23{
+        width: 23%;
+    }
+    .image2position{
+        bottom: 5em;
+        left: 12%;
+    }
+    .size{
+        font-size: 2em;
+    }
+        .position{
+            bottom: 9em;
+            left: 50%;
+            z-index: 1;
+        }
+    .term hr {
+        width: 1350px;
+    }
+    .term {
+        width: 50%;
+    }
+    .product-Service hr {
+        width: 1330px;
+    }
+     .col-17{
+        width: 17%;
+        margin: 0 auto ;
+     }
+}

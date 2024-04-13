@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Cormorant+Garamond:ital,wght@1,700&family=Jacques+Francois+Shadow&family=Josefin+Sans:wght@300;400&family=Londrina+Shadow&family=Montserrat:wght@300&family=Oswald:wght@300;600&family=Questrial&family=Roboto+Slab:wght@100&family=Roboto:wght@100;400;500&family=Titillium+Web:wght@300;700&family=Yellowtail&display=swap');
+  
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Cormorant+Garamond:ital,wght@1,700&family=Jacques+Francois+Shadow&family=Josefin+Sans:wght@300;400&family=Londrina+Shadow&family=Montserrat:wght@300&family=Oswald:wght@300;600&family=Questrial&family=Roboto+Slab:wght@100&family=Roboto:wght@100;400;500&family=Titillium+Web:wght@300&family=Yellowtail&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.jcsb{
+    justify-content: space-between;
+}
+.jcc{
+    justify-content: center;
+}
+.textalign{
+    text-align: center;
+}
+.navbar{
+    padding: 1em 0;
+}
+.menubar ul li{
+    display: inline-block;
+    margin: 1em;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.icon ul li{
+    display: inline-block;
+    margin: 0.8em;
+}
+.icon ul li a i{
+    color: black;
+}
+.menubar ul li a:hover{
+    background-color: black;
+    border-radius: 1.25em;
+    color: white;
+    padding:0.5em 1em;
+}
+
+/* <!-----------------------------------------------------section one---------------------------------------------------> */
+.image img{
+    width: 100%;
+}
+.sec-one{
+    position: relative;
+}
+.textposition{
+    position: absolute;
+    top: 4em;
+    left: 10%;
+}
+.btn #video{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+  padding: 0.4em 1.5em;
+  border-radius: 1.5em;
+}
+.btn a{
+    text-decoration:underline;
+    text-underline-offset: 0.5em;
+    color: black;
+    padding-right: 3em;
+}
+.paddingtop{
+    padding-top: 2em;
+}
+.size h2{
+    font-size: 3em
+}
+.size p{
+    font-size: 1em
+}
+
+/* <!-----------------------------------------------------section one---------------------------------------------------> */
+.sec-two{
+    position: relative;
+    overflow: hidden;
+}
+.list ul li{
+    display: inline-block;
+    margin: 1em;
+}
+.list ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.list ul li a:hover{
+    background-color: black;
+    border-radius: 1.25em;
+    color: white;
+    padding:0.5em 1em;
+}
+.first{
+    margin: 1em;
+    border: 0.1em solid rgb(26, 161, 206);
+    padding: 0.4em 2em;
+    border-radius: 1.7em;
+    font-size: 1em;
+    font-weight: 100;
+    font-weight: bold;
+}
+.second{
+    margin: 1em;
+    border: 0.001em solid gray;
+    padding: 0.4em 2em;
+    border-radius: 1.7em;
+}
+.second:hover{
+    border: 0.1em solid rgb(26, 161, 206);
+    font-weight: bold;
+}
+.col-30{
+    width: 100%;
+}
+.textposition2{
+    position: absolute;
+   bottom: 4em; 
+   left: 9%;
+}
+.textposition3{
+    position: absolute;
+   bottom: 4em; 
+   left: 43%;
+}
+.textposition4{
+    position: absolute;
+   bottom: 4em; 
+    right: 9%;
+}
+.image img{
+    border-radius: 1.5em;
+}
+
+/* <!-----------------------------------------------------section one---------------------------------------------------> */
+.parwidth{
+    width: 70%;
+    margin: 0 auto;
+}
+.psize p{
+    font-size: 0.8em;
+}
+.psize ul li{
+list-style-type: '*   ';
+}
+.menu{
+    padding: 1.2em 0;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+
+}
+
+/*  <!-----------------------------------------------------Footer--------------------------------------------------> */
+.footer{
+    background-color: white;
+}
+.border ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0.5em 0;
+ }
+ .border ul li{
+    list-style: none;
+    padding: 0.3em 0;
+ }
+ .border  a:hover{
+background-color: rgb(23, 18, 13);
+padding: 0.1em 0.5em;
+border-radius: 1.5em;
+color: white;
+
+ }
+ .col-20{
+    width: 15%;
+ }
+ .term{
+    width: 100%;
+ }
+ .term p{
+    margin: 1em 0;
+ }
+ .term hr{
+    width: 100%;
+ }
+ .product-Service hr{
+    width: 100%;
+ }
+ .policy ul li{
+    display: inline-block;
+    padding: 0.5em;
+ }
+ .policy  a{
+    color: black;
+    text-decoration: none;
+ }
+ .col-17{
+    width: 17%;
+    margin: 0 0 0 2em ;
+ }
